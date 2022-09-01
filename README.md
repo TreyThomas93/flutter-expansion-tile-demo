@@ -1,6 +1,6 @@
 # Expansion Tile Open/Close Demo
 
-This demo shows you how to open an expansion tile while simultaneously closing an already open tile using the Expansion Tile widget.
+This demo shows you how to open an expansion tile while simultaneously closing an already open tile while **_maintaining animation_** using the Expansion Tile widget.
 
 ![Alt Text](assets/video/demo.gif)
 
