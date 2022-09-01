@@ -36,7 +36,7 @@ if (!_isExpanded) _handleTap();
 }
 ```
 
-- These methods will allow us to open/close the specified expansion tile.
+- These methods will allow us to open/close the specified expansion tile. We are only going to be using the **_closeExpansion_** method for this project.
 
 ---
 
@@ -85,6 +85,7 @@ ListView.separated(
 - Each generated GlobalKey is stored in the **\__tileKeys_** list.
 - The generated GlobalKey is assigned to the ExpansionTileCopy **_key_** field.
 - In the **_onExpansionChanged_** callback function, we check if the value is true, which indicates the tile is opening. We only want to execute the block if we are expanding another tile. If the index of the tile being expanded does not equal the **\__selectedIndex_** value, then we want to fetch the GlobalKey for the currently expanded tile by it's index, which is represented by the **\__selectedIndex_** value. Once the **_GlobalKey_** is obtained, we then execute the **_closeExpansion_** method that we added to the ExpansionTileCopy state class.
+- This will collapse the currently expanded tile, while expanding the tile that was just clicked on.
 - We then assign the new index to the **\__selectedIndex_** variable.
 
 ### And that's it. I hope this help's you in your future projects. Please leave me any questions, comments, or concerns and I will be happy to respond. Thank you
