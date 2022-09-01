@@ -89,3 +89,7 @@ ListView.separated(
 - We then assign the new index to the **\__selectedIndex_** variable.
 
 ### And that's it. I hope this help's you in your future projects. Please leave me any questions, comments, or concerns and I will be happy to respond. Thank you
+
+---
+
+<a href="https://www.buymeacoffee.com/TreyThomas"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee?&emoji=&slug=TreyThomas&button_colour=604343&font_colour=ffffff&font_family=Inter&outline_colour=ffffff&coffee_colour=FFDD00"></a>
